@@ -96,14 +96,25 @@
 
 
 
-  <meta property="og:type" content="article">
+  <meta name="description" content="根据旅馆建模文档Asg-RH.pdf">
+<meta name="keywords" content="作业">
+<meta property="og:type" content="article">
 <meta property="og:title" content="系统分析与设计-作业7">
 <meta property="og:url" content="https://liuwd8.github.io.com/2019/05/26/系统分析与设计-作业7/index.html">
 <meta property="og:site_name" content="liuwd8的博客">
+<meta property="og:description" content="根据旅馆建模文档Asg-RH.pdf">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-05-26T14:46:23.093Z">
+<meta property="og:image" content="https://liuwd8.github.io.com/2019/05/26/系统分析与设计-作业7/reserve_hotel.png">
+<meta property="og:image" content="https://liuwd8.github.io.com/2019/05/26/系统分析与设计-作业7/make_reservation.png">
+<meta property="og:image" content="https://liuwd8.github.io.com/2019/05/26/系统分析与设计-作业7/m1.png">
+<meta property="og:image" content="https://liuwd8.github.io.com/2019/05/26/系统分析与设计-作业7/m2.png">
+<meta property="og:image" content="https://liuwd8.github.io.com/2019/05/26/系统分析与设计-作业7/m3.png">
+<meta property="og:image" content="https://liuwd8.github.io.com/2019/05/26/系统分析与设计-作业7/use_case.png">
+<meta property="og:updated_time" content="2019-05-26T15:50:01.519Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="系统分析与设计-作业7">
+<meta name="twitter:description" content="根据旅馆建模文档Asg-RH.pdf">
+<meta name="twitter:image" content="https://liuwd8.github.io.com/2019/05/26/系统分析与设计-作业7/reserve_hotel.png">
 
 
 
@@ -400,12 +411,34 @@
                 
               
 
-              <time title="创建时间：2019-05-26 22:46:23" itemprop="dateCreated datePublished" datetime="2019-05-26T22:46:23+08:00">2019-05-26</time>
+              <time title="创建时间：2019-05-26 22:46:23 / 修改时间：23:50:01" itemprop="dateCreated datePublished" datetime="2019-05-26T22:46:23+08:00">2019-05-26</time>
             
 
+            
+              
+
+              
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/System-analysis-and-design/" itemprop="url" rel="index"><span itemprop="name">System analysis and design</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -442,7 +475,26 @@
       
 
       
-        
+        <h1 id="根据旅馆建模文档Asg-RH-pdf"><a href="#根据旅馆建模文档Asg-RH-pdf" class="headerlink" title="根据旅馆建模文档Asg-RH.pdf"></a>根据旅馆建模文档<a href="https://sysu-swsad.github.io/swad-guide/material/Asg_RH.pdf" target="_blank" rel="noopener">Asg-RH.pdf</a></h1><a id="more"></a>
+<ul>
+<li>绘制用例图模型<br><img src="/2019/05/26/系统分析与设计-作业7/reserve_hotel.png" alt=""></li>
+<li>给出 make reservation 用例的活动图<br><img src="/2019/05/26/系统分析与设计-作业7/make_reservation.png" alt=""></li>
+</ul>
+<h1 id="根据课程练习“投递员使用投递箱给收件人快递包裹”的业务场景"><a href="#根据课程练习“投递员使用投递箱给收件人快递包裹”的业务场景" class="headerlink" title="根据课程练习“投递员使用投递箱给收件人快递包裹”的业务场景"></a>根据课程练习“投递员使用投递箱给收件人快递包裹”的业务场景</h1><ul>
+<li>分别用多泳道图建模三个场景的业务过程<ul>
+<li>x科技公司发明了投递柜，它们自建了投递柜以及远程控制系统。注册的投递员在推广期免费使用投递柜。由于缺乏资源，仅能使用y移动平台向客户发送短信通知。<br><img src="/2019/05/26/系统分析与设计-作业7/m1.png" alt=""></li>
+<li>随着产品推广，x公司与各大快递z公司达成协议。x公司在快递柜上添加了二维码扫描装置，z公司的快递员不仅可在快递柜上登陆（由z公司提供认证服务），且可扫描快递单号，投递入柜后自动由z公司发短信给客户。客户取件后，自动发送给z公司投递完成。<br><img src="/2019/05/26/系统分析与设计-作业7/m2.png" alt=""></li>
+<li>x公司进一步优化服务，开发了微信小程序实现扫码取快递。如果用户关注了该公司公众号，直接通过过公众号推送给用户取件码等信息。不再发送短信。<br><img src="/2019/05/26/系统分析与设计-作业7/m3.png" alt=""></li>
+</ul>
+</li>
+<li>根据上述流程，给出快递柜系统最终的用例图模型<ul>
+<li>用正常色彩表示第一个业务流程反映的用例</li>
+<li>用绿色背景表述第二个业务场景添加或修改的用例，以及支持 Actor</li>
+<li>用黄色背景表述第三个业务场景添加或修改的用例，以及支持 Actor<br><img src="/2019/05/26/系统分析与设计-作业7/use_case.png" alt=""></li>
+</ul>
+</li>
+</ul>
+
       
     </div>
 
@@ -462,6 +514,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/作业/" rel="tag"><i class="fa fa-tag"></i> 作业 </a>
+          
+        </div>
       
 
       
@@ -525,8 +583,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -626,6 +693,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#根据旅馆建模文档Asg-RH-pdf"><span class="nav-number">1.</span> <span class="nav-text">根据旅馆建模文档Asg-RH.pdf</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#根据课程练习“投递员使用投递箱给收件人快递包裹”的业务场景"><span class="nav-number">2.</span> <span class="nav-text">根据课程练习“投递员使用投递箱给收件人快递包裹”的业务场景</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
